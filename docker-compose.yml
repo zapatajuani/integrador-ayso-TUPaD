@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  nginx-proxy:
+    image: nginx:stable-alpine # usamos una imagen ligera de nginx
+    container_name: tp_nginx_proxy
+    restart: always
+    ports:
+      - "8000:80" # mapea el puerto 8000 del host al puerto 80 del contenedor
+    volumes:
+      # monta el archivo de configuracion personalizado de nginx
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      # monta el directorio de contenido web para que nginx acceda a el
+      - ./web_content:/usr/share/nginx/html:ro
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge
