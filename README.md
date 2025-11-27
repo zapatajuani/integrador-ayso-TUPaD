@@ -4,3 +4,4 @@ En este repositorio se encuentran los archivos referido al trabajo integrador de
 
 - [Presentacion Power Point](/docs/Presentacion.pptx)
 - [Informe Final](/docs/Trabajo%20Práctico%20–%20Virtualización%20con%20Docker.pdf)
+- [Vídeo presentación](https://www.youtube.com/watch?v=YKCG_BhQoL8)
