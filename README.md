@@ -1,4 +1,4 @@
-## Integrador AySO - 10/2025
+## Integrador AySO - 11/2025
 
 En este repositorio se encuentran los archivos referido al trabajo integrador del alumno **Juan Ignacio Zapata** de la **comision 8**
 
